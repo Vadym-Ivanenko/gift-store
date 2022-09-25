@@ -1,0 +1,175 @@
+:root {
+    --main-color: #000000;
+    --logo-color: #231F20;
+    --second-color: #F7941E;
+    --third-color: #FFFFFF;
+    --background-first: #FAFAFA;
+    --background-second: #F1F1F2;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    color: var(--main-color);
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+.logo {
+    font-family: 'Homemade Apple';
+    font-size: 18px;
+    line-height: 2.16;
+}
+
+
+
+/* Header */
+
+.main-container {
+    padding-left: 80px;
+    padding-right: 34px;
+    background-color: var(--background-first);
+
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 433px;
+}
+
+.header-logo {
+    padding: 38px 0;
+    color: var(--logo-color);
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    padding: 47px 0;
+    gap: 31px;
+}
+
+
+.header-item>a {
+    padding: 47px 0;
+    font-size: 18px;
+    line-height: 1.22;
+    color: var(--main-color);
+}
+
+.header-item>a:hover,
+.header-item>a:focus {
+    color: var(--second-color);
+}
+
+.header-link {
+    margin-left: auto;
+    padding: 14px 24px;
+
+    font-size: 18px;
+    line-height: 1.22;
+    text-transform: uppercase;
+
+    color: var(--second-color);
+    background-color: var(--background-first);
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    color: var(--second-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--third-color);
+    background-color: var(--second-color);
+}
+
+/* Gift */
+
+.gift-container {
+    display: flex;
+    background-color: var(--background-second);
+}
+
+.gift-wrap {
+    width: 721px;
+    padding: 154px 126px 127px 162px;
+}
+
+
+.gift-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.23;
+}
+
+.gift-descr {
+    margin-top: 36px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.gift-link {
+    display: inline-block;
+    margin-top: 60px;
+    padding: 23px 25px;
+
+    font-size: 18px;
+    line-height: 1.22;
+    text-transform: uppercase;
+
+    color: var(--third-color);
+    background-color: var(--second-color);
+    border: 1px solid var(--second-color);
+    border-radius: 5px;
+}
+
+.gift-link:hover,
+.gift-link:focus {
+    color: var(--second-color);
+    background-color: var(--third-color);
+    border: 1px solid var(--second-color);
+}
+
+/* Work */
