@@ -50,6 +50,18 @@ body {
     margin: 0 auto;
 }
 
+.second-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 32px;
+    line-height: 1.18;
+    font-weight: 400;
+    color: inherit;
+}
+
 
 .logo {
     font-family: 'Homemade Apple';
@@ -96,7 +108,7 @@ body {
     padding: 47px 0;
     font-size: 18px;
     line-height: 1.22;
-    color: var(--main-color);
+    color: inherit;
 }
 
 .header-item>a:hover,
@@ -173,3 +185,39 @@ body {
 }
 
 /* Work */
+
+.work-container {
+    display: flex;
+    background-color: var(--background-second);
+}
+
+.work-wrap {
+    padding: 164px 166px 97px 105px;
+}
+
+.work-descr {
+    margin-top: 35px;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.work-link {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 21px 46px;
+
+    font-size: 18px;
+    line-height: 1.22;
+    text-transform: uppercase;
+    color: var(--second-color);
+
+    border: 1px solid var(--second-color);
+    border-radius: 5px;
+}
+
+.work-link:hover,
+.work-link:focus {
+    color: var(--third-color);
+    background-color: var(--second-color);
+}
